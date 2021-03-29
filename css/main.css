@@ -1,7 +1,31 @@
 html {
   box-sizing: border-box;
+  font-family: 'Merriweather', serif;
+  line-height: 1.5;
+  margin: 1rem 1.5rem;
+  padding: 1rem 1.5rem;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
+}
+
+/* font-family: 'Merriweather', serif; */
+
+body {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas:
+  "header"
+  "main"
+}
+
+header {
+  background-color: lightblue;
+  grid-area: "header"
+}
+
+main {
+  background-color: pink;
+  grid-area: "main"
 }
