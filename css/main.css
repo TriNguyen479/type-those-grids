@@ -1,25 +1,7 @@
 html {
   box-sizing: border-box;
-  font-family: "Merriweather", serif;
-  line-height: 1.5;
-  margin: 1rem 1.5rem;
-  padding: 1rem 1.5rem;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
-}
-
-/* font-family: 'Merriweather', serif; */
-
-body {
-
-}
-
-header {
-  background-color: orange;
-}
-
-main {
-  background-color: pink;
 }
